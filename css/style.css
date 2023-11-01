@@ -117,6 +117,7 @@ body {
     width: 70vw;
     grid-template-columns: 40% 60%;
     grid-template-areas: "img content";
+    gap: 0.25rem;
   }
 
   .content {
@@ -140,7 +141,7 @@ body {
 
 @media screen and (width >= 1024px) {
   .container {
-    width: 40vw;
+    width: 38vw;
     margin: 20vh auto 0;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -155,6 +156,6 @@ body {
   }
 
   .footer {
-    width: 40vw;
+    width: 38vw;
   }
 }
